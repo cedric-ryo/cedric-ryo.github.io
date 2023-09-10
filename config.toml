@@ -22,6 +22,16 @@ key = 1
 name = "X(Twitter)"
 url = "https://twitter.com/cedric_ryo"
 
+[[params.social]]
+key = 2
+name = "Zenn"
+url = "https://zenn.dev/cedr1c"
+
+[[params.social]]
+key = 3
+name = "note"
+url = "https://note.com/giu_u1"
+
 [menu]
   [[menu.header]]
     name = "post"
