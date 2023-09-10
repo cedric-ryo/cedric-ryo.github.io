@@ -1,0 +1,34 @@
+baseURL = 'https://cedric-ryo.github.io'
+languageCode = 'ja-jp'
+title = 'Welcome to cedric-ryo site.'
+theme = 'nightfall'
+publishDir = "docs"
+canonifyurls = true
+
+[params]
+author = "cedric-ryo"
+user = "cedric-ryo"
+hostname = "cedric-ryo.github.io"
+published = false
+readingTime = true
+
+[[params.social]]
+key = 0
+name = "GitHub"
+url = "https://github.com/cedric-ryo"
+
+[[params.social]]
+key = 1
+name = "X(Twitter)"
+url = "https://twitter.com/cedric_ryo"
+
+[menu]
+  [[menu.header]]
+    name = "post"
+    weight = 0
+    url = "/post"
+
+    [[menu.header]]
+    name = "about"
+    weight = 1
+    url = '/about'
